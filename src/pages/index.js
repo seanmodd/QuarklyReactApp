@@ -2,7 +2,7 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link, Text, Image, Box, List, Span, Em, Icon, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
-import { Override, Section } from "@quarkly/components";
+import { Override, GoogleMap, Section } from "@quarkly/components";
 import * as Components from "components";
 import { FaYoutube, FaTree } from "react-icons/fa";
 export default (() => {
@@ -26,6 +26,7 @@ export default (() => {
 			<Override slot="menuOverride4" />
 			<Override slot="menuOverride5" />
 		</Components.HeaderMenu>
+		<GoogleMap />
 		<Section
 			padding="130px 0px 100px 0px"
 			sm-padding="40px 0"
@@ -47,7 +48,7 @@ export default (() => {
 				lg-width="80%"
 				md-width="100%"
 			>
-				Introduction to Quarkly
+				Introduction to Quarkly Sean
 			</Text>
 			<Text
 				as="p"
